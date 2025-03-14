@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+/* Define gradient backgrounds for different songs */
+.song-1 {
+    background:radial-gradient(circle, #bbb9b4f6, #404040f6, #2e2e2e)
+}
+
+.song-2 {
+    background:radial-gradient(circle,#503401f6 , #2a1e1e, #1c1313)
+}
+
+.song-3 {
+    background:linear-gradient(45deg, #978803f6, #342f02f6,#0c1c00f6 )
+}
+
+.player {
+    display:flex;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 380px;
+    overflow:hidden; /*prevent image overflow */
+    align-items:center;
+    transition: background 0.5s ease-in-out;
+}
+
+#album-art {
+    width: 150px;
+    height:150px;
+    border-radius: 10px;
+    margin:20px;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+h2 {
+    font-size: 18px;
+    margin-bottom:100px;
+    margin-left:40px;
+}
+
+.controls {
+    display: flex;
+    align-self:flex-start;
+    align-items:center;
+    gap:10px;
+    margin-left:-110px;
+    margin-top:100px;
+    width:100%;
+    transition: background 0.5s ease-in-out;
+}
+
+button {
+    background:linear-gradient(45deg, #c1bfbdf6, #2e2e2e, #1f1f1f);
+    color: gray;
+    border: none;
+    padding: 4px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+    background: gray;
+}
