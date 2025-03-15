@@ -1,5 +1,5 @@
 const songs = [
-    { title: "Poor Grammar", src: "poorgrammar.mp4", album: "poorgrammar.jpg", className: "song-1" }, 
+    { title: "Poor Grammar", src: "poorgrammar_1.mp4", album: "poorgrammar.jpg", className: "song-1" }, 
     { title: "Ballad of Hamantha", src: "balladofhamantha.mp4", album: "stauberʻsalbum.jpg", className: "song-2" }, 
     { title: "A Loving Feeling", src: "alovingfeeling.mp4", album: "puberty2.jpg", className: "song-3" }
 ];
